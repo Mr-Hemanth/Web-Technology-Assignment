@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>WEB-TECHNOLOGY</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-link" id="home-btn">Home</a>
+            <a href="#" class="nav-link" id="login-btn">Login</a>
+            <a href="#" class="nav-link" id="signup-btn">Signup</a>
+        </nav>
+    </header>
+
+    <div class="container" id="home-section">
+        <h1>WELCOME</h1>
+        <p>This is the first Web-Technology Assignment.</p>
+    </div>
+
+    <div class="container" id="login-section" style="display:none;">
+        <div class="login-box" id="login-box">
+            <h1>Login</h1>
+            <form id="login-form">
+                <input type="email" placeholder="Email" id="email" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <button type="submit">Login</button>
+                <p id="login-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <div class="container" id="signup-section" style="display:none;">
+        <div class="register-box" id="register-box">
+            <h1>Signup</h1>
+            <form id="register-form">
+                <input type="text" placeholder="Name" id="name" required>
+                <input type="tel" placeholder="Phone number" id="number" pattern="[6-9]\d{9}" required>
+                <input type="email" placeholder="Email" id="email-reg" required>
+                <input type="password" placeholder="Password" id="password-reg" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}\|:;<>,.]).{6,}$" required>
+                <input type="password" placeholder="Confirm Password" id="password-reg3" required>
+                <button type="submit">Signup</button>
+                <p id="register-message"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="blog.js"></script>
+</body>
+</html>

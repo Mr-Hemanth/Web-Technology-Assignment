@@ -1,0 +1,7 @@
+WEB-TECHNOLOGY ASSIGNMENT
+
+NAME: D.Hemanth Reddy
+
+Student ID: 22WU0101030
+
+Section: CSE-A
